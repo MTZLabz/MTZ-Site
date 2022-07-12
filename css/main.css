@@ -1,0 +1,243 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(250, 250, 250);
+}
+
+ul {
+    padding: 0px !important;
+}
+
+main,
+.content {
+    margin: 0 auto;
+    width: 980px;
+    height: 60px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    border-bottom: 1px solid #24b137;
+}
+
+.logo a {
+    float: left;
+    cursor: pointer;
+    margin-top: 12px;
+    font-family: Hammersmith One;
+    font-size: 28;
+    color: #000;
+    text-decoration: none;
+}
+
+.menu-destaques {
+    margin: 0 auto;
+    width: 980px;
+    height: 115px;
+    position: relative;
+    border-bottom: 1px solid #24b137;
+}
+
+.logoDestaque a {
+    float: left;
+    cursor: pointer;
+    margin-top: 40px;
+    font-family: Hammersmith One;
+    font-size: 28;
+    color: #000;
+    text-decoration: none;
+}
+
+.header-2 {
+    position: relative;
+    width: auto;
+    height: 80px;
+    float: right;
+}
+
+.header-2 ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+}
+
+.header-2 img {
+    width: 77px;
+    height: 77px;
+    cursor: pointer;
+    border-style: none;
+    border: 3px solid #24b137;
+    border-radius: 50%;
+
+}
+
+.btn ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+}
+
+.btn {
+    font-size: 0px;
+    border: none;
+    background-image: transparent;
+    width: 77px;
+    height: 77px;
+    cursor: pointer;
+    border-style: none;
+    border: 3px solid #24b137;
+    border-radius: 50%;
+    margin-top: 000;
+    position: relative;
+    margin-right: 0;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        list-style: none;
+        margin-left: 15px;
+
+    }
+
+    .menu img {
+        max-width: 24px;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .menu {
+        width: auto;
+        height: 60px;
+        float: right;
+    }
+
+    .busca {
+        float: left;
+        margin-right: 60px;
+    }
+
+    .busca input {
+        background-repeat: no-repeat;
+        border-style: none;
+        border: 1px solid;
+        border-radius: 5px;
+        color: rgba(124, 124, 124, 0.171);
+        background-color: rgb(250, 250, 250);
+        width: 210px;
+        height: 30px;
+        outline: none
+    }
+
+
+
+
+    .storie {
+        margin: 0 auto;
+        width: 980px;
+        height: auto;
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        border-left: 1px solid #24b137;
+        border-right: 1px solid #24b137;
+        border-bottom: 1px solid #24b137;
+
+    }
+
+    .slider-storie {
+        margin: 0 auto;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 2000px;
+        margin-top: 0;
+    }
+
+    .slider-storie img {
+        /* 1080 x 1920 */
+        max-width: 546px;
+        width: auto;
+        height: auto;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    .slick-slide {
+        opacity: 1;
+    }
+
+    .slick-center {
+        display: block;
+        opacity: 1;
+    }
+
+    button.slick-prev {
+        font-size: 0px;
+        border: none;
+        /* width: 48px;
+    height: 48px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(/img/slider/arroy.png);
+    top: 45%;
+    left: 5%; */
+    }
+
+    button.slick-next {
+        font-size: 0px;
+        border: none;
+        /* width: 48px;
+    height: 48px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(/img/slider/arroy.png);
+    top: 45%;
+    right: 5%; */
+    }
+
+    .slick-list {
+        width: 100% !important;
+    }
+
+    .slick-initialized {
+        overflow: hidden;
+    }
+
+    .slick-dots li button {
+        font-size: 0px;
+        border: 2px solid #ffffff;
+        width: 62px;
+        height: 10px;
+        background: transparent;
+        cursor: pointer;
+
+    }
+
+    .slick-dots {
+        margin: 0 auto;
+        width: 100%;
+        position: absolute;
+        left: 340px;
+        top: 18px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    li.slick-active button {
+        background: #24b137;
+    }
+
+    .slick-dots li {
+        padding-left: 10px;
+        display: inline-block;
+    }
