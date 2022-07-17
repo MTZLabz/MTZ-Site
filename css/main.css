@@ -78,31 +78,19 @@ main,
 }
 
 /*----------------------------------------------*/
-.dinosau {
-    margin: 150 auto;
-    width: 980px;
-    height: auto;
-    position: relative;
-
-}
 
 .background {
+    margin: 150 auto;
+    width: 980px;
+    height: 200px;
     border-style: none;
     border: 1px solid;
     color: rgb(0, 0, 0);
 
-    position: absolute;
-    background-image: url('background.png');
+    background-image: url('/img/background.png');
     background-repeat: repeat-x;
     animation: slideright 600s infinite linear;
     -webkit-animation: slideright 600s infinite linear;
-    width: 100%;
-    height: 200px;
-
-
-
-
-
 }
 
 
@@ -110,22 +98,19 @@ main,
 
 
 .dino {
-
+    margin: 135 auto;
     width: 60px;
     height: 60px;
-    background-image: url(dino.png);
+    background-image: url('/img/vaca.png'');
     position: absolute;
-    bottom: 0;
-
 }
 
 .cactus {
-
+    margin: 135 auto;
     width: 60px;
     height: 60px;
-    background-image: url(cactus.png);
+    background-image: url('/img/cactus.png');
     position: absolute;
-    bottom: 0;
 
 }
 
@@ -146,7 +131,6 @@ main,
     }
 }
 
-.background {}
 
 /*----------------------------------------------*/
 
