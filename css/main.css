@@ -2,7 +2,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    background-color: rgb(250, 250, 250);
+    background-color: rgba(250, 250, 250, 0);
 }
 
 ul {
@@ -17,7 +17,7 @@ main,
     width: 980px;
     height: 90px;
     position: relative;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
 
 
 }
@@ -80,36 +80,29 @@ main,
 /*----------------------------------------------*/
 
 .background {
-    margin: 150 auto;
-    width: 980px;
-    height: 200px;
-    border-style: none;
-    border: 1px solid;
-    color: rgb(0, 0, 0);
-
+    margin: -90 auto;
+    width: auto;
+    height: 90px;
     background-image: url('/img/background.png');
     background-repeat: repeat-x;
-    animation: slideright 600s infinite linear;
-    -webkit-animation: slideright 600s infinite linear;
+    animation: slideright 6000s infinite linear;
+    -webkit-animation: slideright 6000s infinite linear;
 }
 
 
-
-
-
 .dino {
-    margin: 135 auto;
-    width: 60px;
-    height: 60px;
-    background-image: url('/img/vaca.png'');
+    margin: -60 auto;
+    width: 30px;
+    height: 30px;
+    background-image: url('/img/vaca.png');
     position: absolute;
 }
 
 .cactus {
-    margin: 135 auto;
-    width: 60px;
-    height: 60px;
-    background-image: url('/img/cactus.png');
+    margin: 50 auto;
+    width: 40px;
+    height: 30px;
+    background-image: url('/img/vaca.png');
     position: absolute;
 
 }
