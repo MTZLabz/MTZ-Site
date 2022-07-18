@@ -36,22 +36,29 @@ function jump() {
     }
   }, 35);
 }
+let vaquinhas = 0;
 
 function createCactus() {
   const cactus = document.createElement('div');
   let cactusPosition = 2500;
-  let randomTime = Math.random() * 6000;
-
-  cactus.classList.add('cactus');
-  background.appendChild(cactus);
-  cactus.style.left = cactusPosition + 'px';
-
+  let numeroInicial = 6000;
+  let randomTime = Math.random() * numeroInicial;
+  if (vaquinhas < 7) {
+    cactus.classList.add('cactus');
+    background.appendChild(cactus);
+    cactus.style.left = cactusPosition + 'px';
+  }
   let leftTimer = setInterval(() => {
-    if (cactusPosition < -60) {
-
+    if (cactusPosition <= -60) {
+      cactusPosition = 2500;
     } else {
       cactusPosition -= 4;
       cactus.style.left = cactusPosition + 'px';
+    }
+    if (cactusPosition === 60) {
+      jump();
+      vaquinhas++;
+
     }
   }, 18);
 
