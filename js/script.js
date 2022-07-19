@@ -44,7 +44,7 @@ function createCactus() {
   const cactus = document.createElement('div');
   const nave = document.createElement('div');
 
-  let cactusPosition = 2500;
+  let cactusPosition = 1920;
   let navePosition = 0;
   let numeroInicial = 6000;
   let randomTime = Math.random() * numeroInicial;
@@ -60,7 +60,7 @@ function createCactus() {
       cactusPosition -= 4;
       cactus.style.left = cactusPosition + 'px';
     }
-    if (navePosition < 2500) {
+    if (navePosition < 1920) {
       navePosition += 15;
       nave.style.left = navePosition + 'px';
     } else {
