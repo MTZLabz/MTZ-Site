@@ -83,7 +83,7 @@ main,
     margin: -90 auto;
     width: auto;
     height: 90px;
-    background-image: url(/img/joguinho/background.png);
+    background-image: url(./img/joguinho/background.png);
     background-repeat: repeat-x;
     animation: slideright 6000s infinite linear;
     -webkit-animation: slideright 6000s infinite linear;
@@ -95,7 +95,7 @@ main,
     margin-left: 30px;
     width: 60px;
     height: 60px;
-    background-image: url(/img/joguinho/dino.png);
+    background-image: url(./img/joguinho/dino.png);
     position: absolute;
 }
 
@@ -103,7 +103,7 @@ main,
     margin: 50 auto;
     width: 40px;
     height: 30px;
-    background-image: url(/img/joguinho/vaca.png);
+    background-image: url(./img/joguinho/vaca.png);
     position: absolute;
 
 }
@@ -112,7 +112,7 @@ main,
     margin: -11 auto;
     width: 90px;
     height: 90px;
-    background-image: url(/img/joguinho/nave.png);
+    background-image: url(./img/joguinho/nave.png);
     position: absolute;
 
 }
