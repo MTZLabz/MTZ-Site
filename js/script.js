@@ -1,4 +1,5 @@
 const dino = document.querySelector('.dino');
+const nave = document.querySelector('.nave');
 const background = document.querySelector('.background');
 
 let isJumping = false;
@@ -34,30 +35,44 @@ function jump() {
       position -= 60;
       dino.style.top = position + 'px';
     }
-  }, 35);
+  }, 1);
 }
 let vaquinhas = 0;
+let navinhas = 0;
 
 function createCactus() {
   const cactus = document.createElement('div');
+  const nave = document.createElement('div');
+
   let cactusPosition = 2500;
+  let navePosition = 0;
   let numeroInicial = 6000;
   let randomTime = Math.random() * numeroInicial;
-  if (vaquinhas < 7) {
-    cactus.classList.add('cactus');
-    background.appendChild(cactus);
-    cactus.style.left = cactusPosition + 'px';
-  }
+
+  cactus.classList.add('cactus');
+  background.appendChild(cactus);
+
+
   let leftTimer = setInterval(() => {
     if (cactusPosition <= -60) {
-      cactusPosition = 2500;
+      cactus.remove();
     } else {
       cactusPosition -= 4;
       cactus.style.left = cactusPosition + 'px';
     }
-    if (cactusPosition === 60) {
+    if (navePosition < 2500) {
+      navePosition += 15;
+      nave.style.left = navePosition + 'px';
+    } else {
+      nave.remove();
+    }
+
+
+    if (cactusPosition === 80) {
       jump();
-      vaquinhas++;
+      background.appendChild(nave);
+      nave.classList.add('nave');
+      navePosition = 0;
 
     }
   }, 18);

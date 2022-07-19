@@ -92,6 +92,7 @@ main,
 
 .dino {
     margin: 20 auto;
+    margin-left: 30px;
     width: 60px;
     height: 60px;
     background-image: url(/img/joguinho/dino.png);
@@ -103,6 +104,15 @@ main,
     width: 40px;
     height: 30px;
     background-image: url(/img/joguinho/vaca.png);
+    position: absolute;
+
+}
+
+.nave {
+    margin: -11 auto;
+    width: 90px;
+    height: 90px;
+    background-image: url(/img/joguinho/nave.png);
     position: absolute;
 
 }
