@@ -43,8 +43,9 @@ let navinhas = 0;
 function createCactus() {
   const cactus = document.createElement('div');
   const nave = document.createElement('div');
+  // alert()
 
-  let cactusPosition = 1920;
+  let cactusPosition = background.style.width + 'px';
   let navePosition = 0;
   let numeroInicial = 6000;
   let randomTime = Math.random() * numeroInicial;
